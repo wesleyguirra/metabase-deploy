@@ -12,7 +12,9 @@
   "repository": "https://github.com/metabase/metabase",
   "logo": "https://avatars3.githubusercontent.com/u/10520629?v=3&s=200",
   "success_url": "/setup",
-  "env": {},
+  "env": {
+    "MB_EDITION": "ee"
+  },
   "addons": [
     "heroku-postgresql"
   ],
@@ -21,7 +23,7 @@
       "url": "heroku/jvm"
     },
     {
-      "url": "https://github.com/metabase/metabase-buildpack"
+      "url": "https://github.com/Goldbely/metabase-buildpack"
     }
   ]
 }
