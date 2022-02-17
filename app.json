@@ -23,7 +23,7 @@
       "url": "heroku/jvm"
     },
     {
-      "url": "https://github.com/Goldbely/metabase-buildpack"
+      "url": "https://github.com/wesleyguirra/metabase-buildpack"
     }
   ]
 }
